@@ -1,4 +1,4 @@
-# Used Cars Scoring Program 
+# Waykescrape, Used Cars Scoring Program 
 
 This code finds used cars in Stockholm and gives them scores based on different variables. It uses Selenium and BeautifulSoup to scrape data from a car database and then stores it in a pandas dataframe. It then uses the data from the dataframe to calculate a score for each car. The cars are then sorted by score and the best car for each fuel type is printed. The data is also exported to an Excel file. 
 
