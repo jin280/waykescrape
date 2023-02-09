@@ -35,7 +35,7 @@ def main():
         options.headless = True
         driver = webdriver.Firefox(options=options)
     else:
-        driver = webdriver.Safari()
+        driver = webdriver.Firefox()
     driver.get(url)
     # wait until page is rendered
     time.sleep(timeout)
