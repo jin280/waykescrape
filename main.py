@@ -40,8 +40,7 @@ def main():
     # wait until page is rendered
     time.sleep(timeout)
 
-    # click a button that says Håller med och fortsätt
-    driver.find_element(By.XPATH, "//button[contains(.,'Håller med')]").click()
+    driver.find_element(By.XPATH, "//button[contains(.,'Jag samtycker')]").click()
 
     # iterate every element in pagination-list class and click it
     i = 1
